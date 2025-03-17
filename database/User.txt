@@ -1,0 +1,3 @@
+Sf001,Fang Ming,123456,staff,0512-25634500,Suzhou
+Te002,Tommy J.,124578*,teacher,0521-25634578,London
+St003,Gao Wen,Dount_t8,student,231231,Suzhou
