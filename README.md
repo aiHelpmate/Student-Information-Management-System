@@ -42,7 +42,7 @@ This project is a comprehensive Student Information Management System developed 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/Student-Information-Management-System.git
+   git clone https://github.com/aiHelpmate/Student-Information-Management-System.git
    ```
 
 2. **Compile the Code**:
