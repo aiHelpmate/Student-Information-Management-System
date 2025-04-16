@@ -22,24 +22,6 @@ This project is a comprehensive Student Information Management System developed 
   - Console-based UI that guides users through various functionalities.
   - Clear prompts and structured outputs for user interactions.
 
-## Technologies Used
-
-- **C++**: The core programming language used for implementing the system, showcasing proficiency in object-oriented programming.
-- **File I/O**: Utilizes file handling to store and retrieve user and module data.
-- **Standard Template Library (STL)**: Employs vectors and other STL components for efficient data management.
-
-## Code Structure
-
-- **User.h / User.cpp**: Defines the `User` class and its functionalities, including user management and data handling.
-- **Module.h / Module.cpp**: Implements the `Module` class, encapsulating module-related data and operations.
-- **Utils.h / Utils.cpp**: Provides utility functions for loading user and module data from files and processing strings.
-- **StudentLogic.h / StudentLogic.cpp**: Contains the logic specific to student interactions, including menu navigation and grade management.
-- **TeacherLogic.h / TeacherLogic.cpp**: Manages the functionalities available to teachers, such as updating grades and module information.
-- **StaffLogic.h / StaffLogic.cpp**: Facilitates staff operations for managing users and modules.
-- **StringHelper.h / StringHelper.cpp**: Offers formatting and display functions to enhance console output readability.
-
-## Functions
-
 1. Students object:
    - Students can securely log in using their username and password through the login interface.
    - Students can update their personal information, including phone number and address, by navigating to the profile settings.
@@ -56,6 +38,22 @@ This project is a comprehensive Student Information Management System developed 
    - Staff can add, modify, and delete information in the user table, including personal information about staff, students, and teachers.
    - Staff can add, modify, and delete module information in the module table, including module ID, module name, user name, category, and grades.
    - Staff can publish or retrieve module grades on the module interface.
+
+## Technologies Used
+
+- **C++**: The core programming language used for implementing the system, showcasing proficiency in object-oriented programming.
+- **File I/O**: Utilizes file handling to store and retrieve user and module data.
+- **Standard Template Library (STL)**: Employs vectors and other STL components for efficient data management.
+
+## Code Structure
+
+- **User.h / User.cpp**: Defines the `User` class and its functionalities, including user management and data handling.
+- **Module.h / Module.cpp**: Implements the `Module` class, encapsulating module-related data and operations.
+- **Utils.h / Utils.cpp**: Provides utility functions for loading user and module data from files and processing strings.
+- **StudentLogic.h / StudentLogic.cpp**: Contains the logic specific to student interactions, including menu navigation and grade management.
+- **TeacherLogic.h / TeacherLogic.cpp**: Manages the functionalities available to teachers, such as updating grades and module information.
+- **StaffLogic.h / StaffLogic.cpp**: Facilitates staff operations for managing users and modules.
+- **StringHelper.h / StringHelper.cpp**: Offers formatting and display functions to enhance console output readability.
 
 ## Getting Started
 
