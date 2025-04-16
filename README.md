@@ -38,6 +38,25 @@ This project is a comprehensive Student Information Management System developed 
 - **StaffLogic.h / StaffLogic.cpp**: Facilitates staff operations for managing users and modules.
 - **StringHelper.h / StringHelper.cpp**: Offers formatting and display functions to enhance console output readability.
 
+## Functions
+
+1. Students object:
+   - Students can securely log in using their username and password through the login interface.
+   - Students can update their personal information, including phone number and address, by navigating to the profile settings.
+   - On their personal homepage, students can view a comprehensive list of all available elective modules.
+   - Students can select a specific module to view their final grade for that module.
+2. Teachers
+   - Teachers can log in to the system using their account and password on the login interface.
+   - Teachers can modify their phone number and address by selecting personal information.
+   - Teachers can view a list of all modules they are teaching on their personal homepage.
+   - Teachers can select a module to enter and modify students’ grades. Once grades are published, they cannot be modified for that module.
+
+3. Staff
+   - Staff can log in to the system using their account and password on the login interface.
+   - Staff can add, modify, and delete information in the user table, including personal information about staff, students, and teachers.
+   - Staff can add, modify, and delete module information in the module table, including module ID, module name, user name, category, and grades.
+   - Staff can publish or retrieve module grades on the module interface.
+
 ## Getting Started
 
 1. **Clone the Repository**:
