@@ -4,36 +4,21 @@
 
 This project is a comprehensive Student Information Management System developed in C++. It integrates user management, module management, and grade tracking functionalities, providing a robust platform for both students and staff to manage and interact with academic data effectively. 
 
-## Features
+## Functions
 
-- **User Management**: 
-  - Allows for the registration and management of users, including students and staff.
-  - Supports login functionality with secure password handling.
-
-- **Module Management**:
-  - Users can view, add, update, and delete course modules.
-  - Modules can be associated with teachers and students, facilitating a clear structure for educational content.
-
-- **Grade Tracking**:
-  - Teachers can publish and modify student grades.
-  - Students can view their grades and associated modules.
-
-- **Flexible User Interface**:
-  - Console-based UI that guides users through various functionalities.
-  - Clear prompts and structured outputs for user interactions.
-
-1. Students object:
+1. **Students object**:
    - Students can securely log in using their username and password through the login interface.
    - Students can update their personal information, including phone number and address, by navigating to the profile settings.
    - On their personal homepage, students can view a comprehensive list of all available elective modules.
    - Students can select a specific module to view their final grade for that module.
-2. Teachers object:
+
+2. **Teachers object**:
    - Teachers can log in to the system using their account and password on the login interface.
    - Teachers can modify their phone number and address by selecting personal information.
    - Teachers can view a list of all modules they are teaching on their personal homepage.
    - Teachers can select a module to enter and modify students’ grades. Once grades are published, they cannot be modified for that module.
 
-3. Staff object:
+3. **Staff object**:
    - Staff can log in to the system using their account and password on the login interface.
    - Staff can add, modify, and delete information in the user table, including personal information about staff, students, and teachers.
    - Staff can add, modify, and delete module information in the module table, including module ID, module name, user name, category, and grades.
