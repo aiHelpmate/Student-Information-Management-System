@@ -24,12 +24,6 @@ This project is a comprehensive Student Information Management System developed 
    - Staff can add, modify, and delete module information in the module table, including module ID, module name, user name, category, and grades.
    - Staff can publish or retrieve module grades on the module interface.
 
-## Technologies Used
-
-- **C++**: The core programming language used for implementing the system, showcasing proficiency in object-oriented programming.
-- **File I/O**: Utilizes file handling to store and retrieve user and module data.
-- **Standard Template Library (STL)**: Employs vectors and other STL components for efficient data management.
-
 ## Code Structure
 
 - **User.h / User.cpp**: Defines the `User` class and its functionalities, including user management and data handling.
