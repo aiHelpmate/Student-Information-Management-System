@@ -34,27 +34,6 @@ This project is a comprehensive Student Information Management System developed 
 - **StaffLogic.h / StaffLogic.cpp**: Facilitates staff operations for managing users and modules.
 - **StringHelper.h / StringHelper.cpp**: Offers formatting and display functions to enhance console output readability.
 
-## Getting Started
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/aiHelpmate/Student-Information-Management-System.git
-   ```
-
-2. **Compile the Code**:
-   Use a C++ compiler to compile the code files.
-   ```bash
-   g++ main.cpp User.cpp Module.cpp StaffLogic.cpp StudentLogic.cpp TeacherLogic.cpp Utils.cpp StringHelper.cpp -o StudentManagementSystem
-   ```
-
-3. **Run the Program**:
-   Execute the compiled program.
-   ```bash
-   ./StudentManagementSystem
-   ```
-
 ## Conclusion
 
-This Student Information Management System demonstrates my ability to design and implement a structured C++ application, utilizing object-oriented principles and efficient data management techniques. The project reflects my proficiency in C++ programming, problem-solving skills, and commitment to creating user-friendly applications.
-
-For further inquiries or contributions, feel free to reach out or create a pull request. Thank you for exploring my project!
+This Student Information Management System represents a methodologically rigorous implementation of object-oriented programming principles within the C++ paradigm, demonstrating effective application of structured software engineering practices for educational data management. For further inquiries or contributions, feel free to reach out or create a pull request. Thank you for exploring my project!
