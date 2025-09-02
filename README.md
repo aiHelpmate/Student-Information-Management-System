@@ -1,4 +1,4 @@
-# Student Information Management System
+# Information Management System
 
 ## Overview
 
